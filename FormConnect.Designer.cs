@@ -78,6 +78,7 @@ namespace ContactBook_DesktopClient
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "FormConnect";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Connect to ContactBook";
             this.ResumeLayout(false);
             this.PerformLayout();

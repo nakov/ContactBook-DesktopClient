@@ -108,6 +108,7 @@ namespace ContactBook_DesktopClient
             this.Controls.Add(this.textBoxSearch);
             this.MinimumSize = new System.Drawing.Size(600, 500);
             this.Name = "SearchContactsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Search Contacts";
             this.Load += new System.EventHandler(this.SearchContactsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewContacts)).EndInit();
